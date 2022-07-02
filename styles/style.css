@@ -47,19 +47,19 @@ p {
 /* Images */
 
 .rockPaperScissorsLogo {
-  width: 18em;
+  width: 19em;
   display: flex;
-  padding-top: 1em;
+  padding-top: 1.5em;
 }
 
 /* Content */
 
 .titlePadding {
-  margin-top: 0.6em;
+  margin-top: 0.8em;
 }
 
 .copyrightPadding {
-  margin-top: 17em;
+  margin-top: 15em;
 }
 
 .copyright {
@@ -94,6 +94,11 @@ p {
     h1 {
         font-size: 4.5em;
       }
+
+      .titlePadding {
+        margin-top: 0.6em;
+      }
+      
 
       p {
         font-size: 1.5em;
