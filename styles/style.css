@@ -58,8 +58,15 @@ p {
   margin-top: 0.8em;
 }
 
+.taglinePadding {
+  margin-top: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+  text-align: center;
+}
+
 .copyrightPadding {
-  margin-top: 15em;
+  margin-top: 10.5em;
 }
 
 .copyright {
@@ -73,10 +80,14 @@ p {
     font-size: 4.5em;
   }
 
+  h3 {
+    font-size: 1.7em;
+  }
+
   p {
     font-size: 1.3em;
   }
-
+  
   /* Images */
   .rockPaperScissorsLogo {
     width: 25em;
@@ -84,8 +95,15 @@ p {
     padding-top: 1.5em;
   }
 
+  .taglinePadding {
+    margin-right: 10em;
+    margin-left: 10em;
+
+  }
+
+
   .copyrightPadding {
-    margin-top: 18em;
+    margin-top: 11.5em;
   }
 }
 
@@ -96,8 +114,12 @@ p {
       }
 
       .titlePadding {
-        margin-top: 0.6em;
+        margin-top: 0.4em;
       }
+
+     h3 {
+      font-size: 1.9em;
+     }
       
 
       p {
@@ -113,7 +135,7 @@ p {
 
     
   .copyrightPadding {
-    margin-top: 5em;
+    margin-top: 3em;
   }
 
 }
@@ -145,4 +167,11 @@ p {
 .myButton:active {
   position: relative;
   top: 1px;
+}
+
+
+@media only screen and (min-device-width: 1025px) {
+  .myButton {
+    margin-top: 2em;
+  }
 }
