@@ -38,6 +38,12 @@ h1 {
   text-shadow: 3px 3px #ffe8b9;
 }
 
+h3,
+p {
+  font-weight: 300;
+  font-family: "Squada One", cursive;
+}
+
 /* Images */
 
 .rockPaperScissorsLogo {
@@ -59,6 +65,52 @@ h1 {
 .copyright {
   color: white;
   padding: 1em;
+}
+
+/* Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  h1 {
+    font-size: 4.5em;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+  /* Images */
+  .rockPaperScissorsLogo {
+    width: 25em;
+    display: flex;
+    padding-top: 1.5em;
+  }
+
+  .copyrightPadding {
+    margin-top: 18em;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+    h1 {
+        font-size: 4.5em;
+      }
+
+      p {
+        font-size: 1.5em;
+      }
+    
+        /* Images */
+    .rockPaperScissorsLogo {
+        width: 24em;
+        display: flex;
+        padding-top: 1.5em;
+    }
+
+    
+  .copyrightPadding {
+    margin-top: 5em;
+  }
+
 }
 
 /* Button */
@@ -89,7 +141,3 @@ h1 {
   position: relative;
   top: 1px;
 }
-
-
-
-
