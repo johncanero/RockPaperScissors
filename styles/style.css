@@ -1,13 +1,62 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-
-  body{
-    background-image:url("../images/sandTrooperStarWars.jpg");
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  background-image: url("../images/sandTrooperStarWars.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+/* Background Colors */
+
+.backgroundContainer2 {
+    background-color: #211e1e;
+}
+
+
+
+/* Containers */
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    text-align: center;
+    align-items: center;
+}
+
+
+
+/* Heading Tags */
+
+h1 {
+    color: #211e1e;
+    font-family: "Knewave", cursive;
+    font-size: 2.1em;
+    text-shadow: 3px 3px #ffe8b9;
+  }
+
+
+  /* Images */
+
+  .rockPaperScissorsLogo {
+    width: 17em;
+    display: flex;
+    padding-top: 2.5em;
+  }
+
+
+  /* Content */
+
+  .copyrightPadding {
+    margin-top: 30em;
+  }
+
+  .copyright {
+    color: white;
+    padding: 1em;
+  }
