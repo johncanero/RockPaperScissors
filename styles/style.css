@@ -4,7 +4,8 @@
 }
 
 body {
-  background-image: url("../images/sandTrooperStarWars.jpg");
+  /* background-image: url("../images/sandTrooperStarWars.jpg"); */
+  background: linear-gradient( rgba(129, 129, 129, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/sandTrooperStarWars.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
