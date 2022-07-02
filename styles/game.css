@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    /* background-image: url("../images/sandTrooperStarWars.jpg"); */
+    background: linear-gradient(rgba(161, 161, 161, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/rockPaperScissorsBackground.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
