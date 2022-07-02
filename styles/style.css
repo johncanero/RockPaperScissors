@@ -5,59 +5,91 @@
 
 body {
   /* background-image: url("../images/sandTrooperStarWars.jpg"); */
-  background: linear-gradient( rgba(161, 161, 161, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/sandTrooperStarWars.jpg");
+  background: linear-gradient(rgba(161, 161, 161, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/rockPaperScissorsBackground.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: center;
 }
 
 /* Background Colors */
 
 .backgroundContainer2 {
-    background-color: #211e1e;
+  background-color: #211e1e;
 }
-
-
 
 /* Containers */
 .flex-container1 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 
-    text-align: center;
-    align-items: center;
+  text-align: center;
+  align-items: center;
 }
-
-
 
 /* Heading Tags */
 
 h1 {
-    color: #211e1e;
-    font-family: "Knewave", cursive;
-    font-size: 2.1em;
-    text-shadow: 3px 3px #ffe8b9;
-  }
+  color: #211e1e;
+  font-family: "Knewave", cursive;
+  font-size: 3.5em;
+  text-shadow: 3px 3px #ffe8b9;
+}
+
+/* Images */
+
+.rockPaperScissorsLogo {
+  width: 18em;
+  display: flex;
+  padding-top: 1em;
+}
+
+/* Content */
+
+.titlePadding {
+  margin-top: 0.6em;
+}
+
+.copyrightPadding {
+  margin-top: 17em;
+}
+
+.copyright {
+  color: white;
+  padding: 1em;
+}
+
+/* Button */
+
+.myButton {
+  box-shadow: 3px 4px 0px 0px #f4dfba;
+  background: linear-gradient(to bottom, #ca975c 5%, #876445 100%);
+  background-color: #ca975c;
+  border-radius: 5px;
+  border: 1px solid #eec373;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+
+  margin-top: 3em;
+  padding: 12px 44px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #000000;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #876445 5%, #ca975c 100%);
+  background-color: #876445;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
 
 
-  /* Images */
-
-  .rockPaperScissorsLogo {
-    width: 17em;
-    display: flex;
-    padding-top: 2.5em;
-  }
 
 
-  /* Content */
-
-  .copyrightPadding {
-    margin-top: 30em;
-  }
-
-  .copyright {
-    color: white;
-    padding: 1em;
-  }
