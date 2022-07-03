@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+html {
+  /* footer support */
+  position: relative;
+  min-height: 100%;
+}
+
 
 body {
   /* background-image: url("../images/sandTrooperStarWars.jpg"); */
@@ -12,6 +18,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+    /* footer support */
+    margin-bottom: 100px;
 }
 
 /* Background Colors */
@@ -68,15 +76,23 @@ p {
   text-align: center;
 }
 
+
+/* Footer */
+
 .footer {
-  position: fixed;
-  left: 0;
+  position: absolute;
   bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   width: 100%;
+  padding: 10px;
   background-color: #211e1e;
   color: white;
-  text-align: center;
 }
+
 
 .copyright {
   color: white;
