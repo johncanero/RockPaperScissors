@@ -20,7 +20,7 @@
 <body>
 
     <!-- Sounds Folder -->
-    <audio id="soundStartButton" src="sounds/soundStartButton.mp3"></audio>
+    <audio id="startButtonSound" src="sounds/startButtonSound.mp3"></audio>
     <audio id="soundApplause" src="sounds/soundApplause.mp3"></audio>
     <audio id="soundLose" src="sounds/soundLose.mp3"></audio>
 
@@ -34,8 +34,14 @@
             <div class="taglinePadding">
                 <h3>A Rock-Paper-Scissors Game that you would enjoy!</h3>   
             </div>
+
             <!-- Start Button-->
-            <a href="game.html" class="myButton">START</a>
+            <div id="startContainer">
+                <button id="startButton" class="myButton" onclick="playSound()">
+                    START
+                </button>
+            </div>
+            
         </div>
     </section>
   

@@ -25,9 +25,13 @@
     <link rel="stylesheet" href="styles/game.css" />
   </head>
   <body>
+      <!-- Sounds Folder -->
+      <audio id="startButtonSound" src="sounds/startButtonSound.mp3"></audio>
+      <audio id="soundApplause" src="sounds/soundApplause.mp3"></audio>
+      <audio id="soundLose" src="sounds/soundLose.mp3"></audio>
+  
 
     <section>
-
         <div class="flex-container1">
             <div class="titlePadding">   
                 <h1>Janken</h1>
@@ -98,15 +102,20 @@
 
 
 
-
+   <!-- <div id="startContainer">
+    <button id="startButton" class="myButton" onclick="playSound()">
+        START
+    </button>
+        </div> -->
 
 
     <section>
-      <div class="flex-container1">
-        <!-- Home Button-->
-        <a href="index.html" class="myButton">HOME</a>
+      <div id="homeContainer" class="flex-container1">
+        <button id="homeButton" class="myButton" onclick="playSound()" >HOME</button>
       </div>
     </section>
+
+
     <!-- Heading Tag -->
 
     <!-- Copyright -->
