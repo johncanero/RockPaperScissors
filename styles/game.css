@@ -52,7 +52,6 @@ p {
 
 p {
   font-size: 1.3em;
-  
 }
 /* Background Colors */
 
@@ -123,6 +122,20 @@ p {
   height: 240px;
 }
 
+/* Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Heading Tag */
+  h1 {
+    font-size: 3.5em;
+    text-shadow: 4px 4px #ffe8b9;
+  }
+
+  .playercontainer {
+    width: 380px;
+    height: 280px;
+  }
+}
+
 .playerh2 {
   text-align: center;
   margin-top: 0.3em;
@@ -146,6 +159,18 @@ p {
 
 .playerscore {
   color: white;
+}
+
+/* Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .playerinformation {
+    margin-top: 1.2em;
+  }
+
+  .logo {
+    height: 3.5em;
+    width: 3.5em;
+  }
 }
 
 .gameselections {
@@ -200,6 +225,18 @@ p {
   margin-top: 0.4em;
   height: 50px;
   width: 50px;
+}
+
+/* Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .gameselections {
+    margin-top: 1em;
+  }
+
+  .gameselection {
+    width: 120px;
+    height: 120px;
+  }
 }
 
 /* Button */
