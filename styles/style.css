@@ -35,11 +35,16 @@ h1 {
   text-shadow: 3px 3px #ffe8b9;
 }
 
+h3 {
+  font-size: 1.4em;
+}
+
 h3,
 p {
   font-weight: 300;
   font-family: "Squada One", cursive;
 }
+
 
 /* Images */
 

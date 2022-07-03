@@ -17,10 +17,13 @@ body {
 h1 {
     color: #211e1e;
     font-family: "Knewave", cursive;
-    font-size: 2em;
+    font-size: 3em;
     text-shadow: 3px 3px #ffe8b9;
   }
 
+h3 {
+    font-size: 1.7em;
+}
 
 /* Paragraph Tag */
 h3,
@@ -50,12 +53,25 @@ p {
 .grid-container1 {
     display: grid;
     grid-template-columns: 285px;
-    grid-template-rows: 200px;
-
+    grid-template-rows: 260px;
     text-align: center;
     justify-content: center;
 }
 
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 80px 80px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    text-align: center;
+    justify-content: center;
+}
 
 /* Contents */
 .playerContainer {
@@ -64,7 +80,9 @@ p {
 
 
     width: 18em;
-    height: 10em;
+    height: 14em;
+    padding-top: 1em;
+    
 }
 
 .footer {
@@ -81,6 +99,36 @@ p {
     color: white;
     padding: 1em;
   }
+
+
+  .titlePadding {
+    margin: 1.5em;
+  }
+
+
+
+  /* Player Contents */
+
+  .playerPadding {
+    margin-top: 2em;
+  }
+
+
+  .playerGame {
+    width: 4em;
+  }
+
+
+  .scoreLine {
+    margin-top: 2.3em;
+  }
+  
+
+  .handIcon {
+    width: 5em;
+  }
+
+
 
 /* Button */
 .myButton {
