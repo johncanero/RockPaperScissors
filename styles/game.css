@@ -94,12 +94,53 @@ p {
 
 .copyright {
   color: white;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .titlePadding {
   margin: 1.5em;
 }
+
+/* Button */
+.myButton {
+  box-shadow: 3px 4px 0px 0px #f4dfba;
+  background: linear-gradient(to bottom, #ca975c 5%, #876445 100%);
+  background-color: #ca975c;
+  border-radius: 5px;
+  border: 1px solid #eec373;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+
+  margin-top: 2em;
+  padding: 12px 44px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #000000;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #876445 5%, #ca975c 100%);
+  background-color: #876445;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Code Inspiration Guide */
 
@@ -252,7 +293,7 @@ p {
 }
 
 .gameselection:hover {
-  background-color: lightgrey;
+  background-color: #fff2d8;
   box-shadow: 3px 3px 1px;
   border-bottom: 2px solid;
   transform: translate(1%, -1%);
@@ -302,30 +343,3 @@ p {
   }
 }
 
-/* Button */
-.myButton {
-  box-shadow: 3px 4px 0px 0px #f4dfba;
-  background: linear-gradient(to bottom, #ca975c 5%, #876445 100%);
-  background-color: #ca975c;
-  border-radius: 5px;
-  border: 1px solid #eec373;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 17px;
-  font-weight: bold;
-
-  margin-top: 3em;
-  padding: 12px 44px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #000000;
-}
-.myButton:hover {
-  background: linear-gradient(to bottom, #876445 5%, #ca975c 100%);
-  background-color: #876445;
-}
-.myButton:active {
-  position: relative;
-  top: 1px;
-}
