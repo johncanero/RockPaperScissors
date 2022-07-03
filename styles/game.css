@@ -1,6 +1,15 @@
-* {
-  margin: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   padding: 0;
+  margin: 0;
+}
+
+html {
+  /* footer support */
+  position: relative;
+  min-height: 100%;
 }
 
 body {
@@ -11,6 +20,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+  /* footer support */
+  margin-bottom: 100px;
 }
 
 /* Heading Tag */
@@ -59,14 +71,22 @@ p {
   justify-content: center;
 }
 
+/* Footer */
 .footer {
-  position: fixed;
-  left: 0;
+  position: absolute;
   bottom: 0;
+  left: 0;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
   width: 100%;
+  padding: 10px;
+
   background-color: #211e1e;
   color: white;
-  text-align: center;
 }
 
 .copyright {
@@ -166,7 +186,7 @@ p {
 }
 
 .gameselectiontext {
-  margin-top: 1em;  
+  margin-top: 1em;
   text-transform: uppercase;
   font-weight: bold;
 }
