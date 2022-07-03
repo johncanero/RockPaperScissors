@@ -14,3 +14,12 @@ mainButton = document.querySelector("#homeButton").addEventListener("click", pla
 // Function to hide start div and show end div
 let homeContainer = document.getElementById("homeContainer");
 let btn = document.querySelector("#startButton");
+
+
+// Sounds of Game Selections (Rock, Paper and Scissors)
+
+
+// Changing Scoreline
+
+
+// Results 
