@@ -14,7 +14,12 @@ body {
 }
 
 /* Heading Tag */
-
+h1 {
+    color: #211e1e;
+    font-family: "Knewave", cursive;
+    font-size: 2em;
+    text-shadow: 3px 3px #ffe8b9;
+  }
 
 
 /* Paragraph Tag */
@@ -28,10 +33,6 @@ p {
 
 
 /* Background Colors */
-.backgroundContainer2 {
-  background-color: #211e1e;
-}
-
 
 
 /* Flexbox */
@@ -45,20 +46,41 @@ p {
 }
 
 
-
-
-
-
 /* Grid Container */
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 285px;
+    grid-template-rows: 200px;
+
+    text-align: center;
+    justify-content: center;
+}
+
 
 /* Contents */
-.copyrightPadding {
-  margin-top: 10.5em;
+.playerContainer {
+    background-color: rgb(111, 111, 111);
+    border-radius: 10px;
+
+
+    width: 18em;
+    height: 10em;
 }
-.copyright {
-  color: white;
-  padding: 1em;
-}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #211e1e;
+    color: white;
+    text-align: center;
+  }
+  
+  .copyright {
+    color: white;
+    padding: 1em;
+  }
 
 /* Button */
 .myButton {

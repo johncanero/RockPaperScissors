@@ -15,9 +15,6 @@ body {
 
 /* Background Colors */
 
-.backgroundContainer2 {
-  background-color: #211e1e;
-}
 
 /* Containers */
 .flex-container1 {
@@ -65,8 +62,14 @@ p {
   text-align: center;
 }
 
-.copyrightPadding {
-  margin-top: 10.5em;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #211e1e;
+  color: white;
+  text-align: center;
 }
 
 .copyright {
