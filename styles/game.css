@@ -50,6 +50,10 @@ p {
   font-family: "Squada One", cursive;
 }
 
+p {
+  font-size: 1.3em;
+  
+}
 /* Background Colors */
 
 /* Flexbox */
