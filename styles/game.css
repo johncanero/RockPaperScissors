@@ -130,11 +130,46 @@ p {
     text-shadow: 4px 4px #ffe8b9;
   }
 
+  h2 {
+    font-size: 2.2em;
+  }
+
+
+  p {
+    font-size: 1.7em;
+  }
+
   .playercontainer {
     width: 380px;
     height: 280px;
   }
 }
+
+
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+  /* Heading Tag */
+  h1 {
+    font-size: 5em;
+    text-shadow: 4px 4px #ffe8b9;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1.7em;
+  }
+
+  .playercontainer {
+    width: 430px;
+    height: 320px;
+    margin: 1.3em;
+  }
+}
+
+
 
 .playerh2 {
   text-align: center;
@@ -172,6 +207,20 @@ p {
     width: 3.5em;
   }
 }
+
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+  .playerinformation {
+    margin-top: 1.2em;
+  }
+
+  .logo {
+    height: 5em;
+    width: 5em;
+  }
+}
+
+
 
 .gameselections {
   display: flex;
@@ -236,6 +285,20 @@ p {
   .gameselection {
     width: 120px;
     height: 120px;
+  }
+}
+
+
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+  .gameselections {
+    margin-top: 1em;
+  }
+
+  .gameselection {
+    width: 120px;
+    height: 120px;
+    margin: 8px;
   }
 }
 
