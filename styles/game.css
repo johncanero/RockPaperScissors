@@ -131,17 +131,6 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* Code Inspiration Guide */
 
 .gamecontainer {
@@ -160,7 +149,7 @@ p {
   font-weight: bold;
   margin: 1em;
   width: 300px;
-  height: 240px;
+  height: 250px;
 }
 
 /* Tablet */
@@ -282,7 +271,7 @@ p {
   background-color: #ffe8b9;
   border-radius: 10px;
   width: 100px;
-  height: 100px;
+  height: 115px;
   margin: 5px;
   border-radius: 3px;
   box-shadow: 4px 5px 0px #211e1e;
