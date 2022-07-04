@@ -53,6 +53,19 @@ p {
 p {
   font-size: 1.3em;
 }
+
+a:visited { 
+  text-decoration: none; 
+  color: white;
+ }
+a:link { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+
+
+
 /* Background Colors */
 
 /* Flexbox */
@@ -75,14 +88,12 @@ p {
 }
 
 
-
 .container {
   width: 100%;
   height: 100%;   
   display: flex;
   justify-content: center;
 }
-
 
 
 /* Footer */

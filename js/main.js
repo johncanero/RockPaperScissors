@@ -1,6 +1,6 @@
 // Function to write text before game starts
 let i = 0;
-let txt = 'Rock, Paper, Scissors?';
+let txt = 'Janken';
 let speed = 50;
 
 function typeWriter() {
@@ -17,7 +17,17 @@ function playSound() {
     const buttonPress = document.querySelector("#startbuttonsound");
     buttonPress.play();
 }
+
+
 mainButton = document.querySelector("#startbutton").addEventListener("click", playSound);
+// mainButton = document.querySelector("#endbutton").addEventListener("click", playSound);
+
+
+var audio = new Audio("sounds/startButtonSound.mp3");
+document.onclick = function() {
+  audio.play();
+}
+
 
 
 // Function to play winner audio on win
@@ -42,7 +52,7 @@ btn.addEventListener('click', function(){
     // Add timeout with length matching animation-duration 
     window.setTimeout(function(){
         startContainer.style.display = 'none';
-    },700); 
+    },600); 
     setTimeout(() => {  typeWriter(); }, 1000);
     // Add event listener to all of the game buttons
     gameButtons = document.querySelectorAll(".gameselection").forEach(item => {

@@ -34,75 +34,95 @@
     <section>
         <div class="flex-container1">
             <div class="titlePadding">   
-                <h1 id="gameh1">Janken</h1>
+                <h1 id="gameh1"></h1>
             </div>
         </div>
         
         <!-- Grid Container2 -->
-        <div class="gamecontainer">
-            <div class="playercontainer">
-                <h2 class="playerh2">Player</h2>
-                <div class="playerinformation">
-                    <div class="playerlogo">
-                        <img class="logo" src="images/playerGame.png">
+        <div class="container" id="endcontainer">
+            <div class="gamecontainer">
+                <div class="playercontainer">
+                    <h2 class="playerh2">Player</h2>
+                    <div class="playerinformation">
+                        <div class="playerlogo">
+                            <img class="logo" src="images/playerGame.png">
+                        </div>
+                        <div class="playerscore">
+                            <p class="score" id="playerscore">Score: 0</p>
+                        </div>
                     </div>
-                    <div class="playerscore">
-                        <p class="score" id="playerscore">Score: 0</p>
+     
+                    <div class="gameselections">
+                        <div class="gameselection" id="rockdiv">
+                            <p class="gameselectiontext" id="rockselection">Rock</p>
+                            <img class="selection" id ="rockimg" src="images/rockHandLogo.png">
+                        </div>
+                        <div class="gameselection" id="paperdiv">
+                            <p class="gameselectiontext" id="paperselection">Paper</p>
+                            <img class="selection" id="paperimg" src="images/paperHandLogo.png">
+                        </div>
+                        <div class="gameselection" id="scissorsdiv">
+                            <p class="gameselectiontext" id="scissorsselection">Scissors</p>
+                            <img class="selection" id="scissorsimg" src="images/scissorsHandLogo.png">
+                        </div>
                     </div>
                 </div>
- 
-                <div class="gameselections">
-                    <div class="gameselection" id="rockdiv">
-                        <p class="gameselectiontext" id="rockselection">Rock</p>
-                        <img class="selection" id ="rockimg" src="images/rockHandLogo.png">
+    
+    
+                <div class="playercontainer">
+                    <h2 class="playerh2">Computer</h2>
+                    <div class="playerinformation">
+                        <div class="playerlogo">
+                            <img class="logo" src="images/computerGame.png">
+                        </div>
+                        <div class="playerscore">
+                            <p class="score" id="computerscore">Score: 0</p>
+                        </div>
                     </div>
-                    <div class="gameselection" id="paperdiv">
-                        <p class="gameselectiontext" id="paperselection">Paper</p>
-                        <img class="selection" id="paperimg" src="images/paperHandLogo.png">
-                    </div>
-                    <div class="gameselection" id="scissorsdiv">
-                        <p class="gameselectiontext" id="scissorsselection">Scissors</p>
-                        <img class="selection" id="scissorsimg" src="images/scissorsHandLogo.png">
+                    
+    
+                    <div class="gameselections">
+                        <div class="gameselection" id="computerrockdiv">
+                            <p class="gameselectiontext" id="rockselection">Rock</p>
+                            <img class="selection" id ="rockimg" src="images/rockHandLogo.png">
+                        </div>
+                        <div class="gameselection" id="computerpaperdiv">
+                            <p class="gameselectiontext" id="paperselection">Paper</p>
+                            <img class="selection" id="paperimg" src="images/paperHandLogo.png">
+                        </div>
+                        <div class="gameselection" id="computerscissorsdiv">
+                            <p class="gameselectiontext" id="scissorsselection">Scissors</p>
+                            <img class="selection" id="scissorsimg" src="images/scissorsHandLogo.png">
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
+    
+    
+        <!-- Start Game -->
+        <div class="container" id="startcontainer">
+            <button class="myButton" id="startbutton">Start Game</button>
+        </div>
 
 
-            <div class="playercontainer">
-                <h2 class="playerh2">Computer</h2>
-                <div class="playerinformation">
-                    <div class="playerlogo">
-                        <img class="logo" src="images/computerGame.png">
-                    </div>
-                    <div class="playerscore">
-                        <p class="score" id="computerscore">Score: 0</p>
-                    </div>
-                </div>
-                
 
-                <div class="gameselections">
-                    <div class="gameselection" id="computerrockdiv">
-                        <p class="gameselectiontext" id="rockselection">Rock</p>
-                        <img class="selection" id ="rockimg" src="images/rockHandLogo.png">
-                    </div>
-                    <div class="gameselection" id="computerpaperdiv">
-                        <p class="gameselectiontext" id="paperselection">Paper</p>
-                        <img class="selection" id="paperimg" src="images/paperHandLogo.png">
-                    </div>
-                    <div class="gameselection" id="computerscissorsdiv">
-                        <p class="gameselectiontext" id="scissorsselection">Scissors</p>
-                        <img class="selection" id="scissorsimg" src="images/scissorsHandLogo.png">
-                    </div>
-                </div>
+
+        <!-- Home Button -->
+        <!-- Produce Sound Button -->
+        <div class="bottomcontainer" id="bottomcontainer">
+            <div class="winninglogodiv">
+                <img class="winninglogo" id="userwinslogo" src="images/user.png">
+                <img class="winninglogo" id="robotwinslogo" src="images/robot.png">
+            </div>
+            <p class="gameupdates"></p>
+            <div class="flex-container1">
+                <button id="endbutton" class="myButton">
+                    <a href="index.html">Play Again?</a>
+                </button>
             </div>
         </div>
-    </section>
 
-
-    <!-- Start Game -->
-    <div class="container" id="startcontainer">
-        <button class="myButton" id="startbutton">Start Game</button>
-    </div>
 
     <!-- Javascript -->
     <script src="js/main.js"></script>
