@@ -16,6 +16,25 @@ let homeContainer = document.getElementById("homeContainer");
 let btn = document.querySelector("#startButton");
 
 
+
+// Another Page for Win or Lose Effect
+// Function to play winner audio on win 
+function playSoundApplause() {
+    const soundApplause = document.getElementById("soundApplause");
+    soundApplause.play();
+}
+
+
+// Function to play loser audio on loss
+function playSoundLose() {
+    const soundLose = document.getElementById("soundLose");
+    soundLose.play();
+}
+
+
+
+
+
 // Sounds of Game Selections (Rock, Paper and Scissors)
 
 
