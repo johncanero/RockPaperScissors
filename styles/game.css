@@ -96,6 +96,33 @@ a:active { text-decoration: none; }
 }
 
 
+.bottomcontainer {
+  display: none;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.winninglogodiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.winninglogo {
+  display: none;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* Footer */
 .footer {
   position: absolute;
@@ -151,16 +178,6 @@ a:active { text-decoration: none; }
   top: 1px;
 }
 
-
-.winninglogo {
-  display: none;
-  text-align: center;
-  height: 100px;
-  width: 100px;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 
 
