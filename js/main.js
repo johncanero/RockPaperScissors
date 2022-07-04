@@ -18,16 +18,10 @@ function playSound() {
     buttonPress.play();
 }
 
-
+// Sound Start Game Button
 mainButton = document.querySelector("#startbutton").addEventListener("click", playSound);
+// Sound Play Again?
 mainButton = document.querySelector("#endbutton").addEventListener("click", playSound);
-
-
-var audio = new Audio("sounds/startButtonSound.mp3");
-document.onclick = function() {
-  audio.play();
-}
-
 
 
 // Function to play winner audio on win
@@ -43,8 +37,9 @@ function playLoseSound() {
 }
 
 // Function to hide start div and show end div
-let startContainer = document.getElementById('startcontainer');
+let startContainer = document.getElementById("startcontainer");
 let btn = document.querySelector("#startbutton");
+
 
 btn.addEventListener('click', function(){
     startContainer.style.opacity = 0;
