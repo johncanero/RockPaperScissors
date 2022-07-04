@@ -7,3 +7,5 @@ Project by John Cañero.
 <img src= "images/desktopViewRockPaperScissors.png" alt="desktopView - Homepage.png">
 
 <img src= "images/desktopViewRockPaperScissors2.png" alt="desktopView - GameProject.png">
+
+<img src= "images/desktopViewRockPaperScissors3.png" alt="desktopView - Results.png">
