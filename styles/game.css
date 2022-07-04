@@ -40,7 +40,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.7em;
+  font-size: 1.5em;
 }
 
 /* Paragraph Tag */
@@ -147,7 +147,7 @@ a:active { text-decoration: none; }
 }
 
 .titlePadding {
-  margin: 1.5em;
+  margin: 2em;
 }
 
 /* Button */
@@ -218,13 +218,18 @@ a:active { text-decoration: none; }
     text-shadow: 4px 4px #ffe8b9;
   }
 
-  h2 {
-    font-size: 2.2em;
+  h3 {
+    font-size: 2em;
   }
 
 
   p {
     font-size: 1.7em;
+  }
+
+  .titlePadding {
+    margin-right: 8em;
+    margin-left: 8em;
   }
 
   .playercontainer {
@@ -242,8 +247,8 @@ a:active { text-decoration: none; }
     text-shadow: 4px 4px #ffe8b9;
   }
 
-  h2 {
-    font-size: 2.5em;
+  h3 {
+    font-size: 2em;
   }
 
   p {
