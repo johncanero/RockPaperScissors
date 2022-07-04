@@ -10,8 +10,6 @@ function playSound () {
     // buttonPress.play ();
 }
 
-mainButton = document.querySelector("#startButton").addEventListener("click", playSound);
-
 // Function to hide start div and show end div
 let startContainer = document.getElementById("startContainer");
 let btn = document.querySelector("#startButton");

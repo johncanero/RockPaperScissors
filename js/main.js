@@ -20,7 +20,7 @@ function playSound() {
 
 
 mainButton = document.querySelector("#startbutton").addEventListener("click", playSound);
-// mainButton = document.querySelector("#endbutton").addEventListener("click", playSound);
+mainButton = document.querySelector("#endbutton").addEventListener("click", playSound);
 
 
 var audio = new Audio("sounds/startButtonSound.mp3");
