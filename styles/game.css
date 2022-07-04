@@ -130,6 +130,17 @@ p {
 }
 
 
+.winninglogo {
+  display: none;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 /* Code Inspiration Guide */
 
@@ -139,6 +150,14 @@ p {
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+}
+
+
+.bottomContainer {
+  display: none;
+  color: white;
+  width: 100%;
+  text-align: center;
 }
 
 /* It made the Mobile Column View */
