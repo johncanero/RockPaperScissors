@@ -26,10 +26,10 @@
   </head>
   <body>
       <!-- Sounds Folder -->
-      <audio id="startButtonSound" src="sounds/startButtonSound.mp3"></audio>
-      <audio id="soundApplause" src="sounds/soundApplause.mp3"></audio>
-      <audio id="soundLose" src="sounds/soundLose.mp3"></audio>
-  
+      <audio id="startbuttonsound" src="sounds/startButtonSound.mp3"></audio>
+      <audio id="winnersound" src="sounds/soundApplause.mp3"></audio>
+      <audio id="losersound" src="sounds/soundLose.mp3"></audio>
+ 
 
     <section>
         <div class="flex-container1">
@@ -99,26 +99,18 @@
     </section>
 
 
+    <!-- Start Game -->
+    <div class="container" id="startcontainer">
+        <button class="myButton" id="startbutton">Start Game</button>
+    </div>
 
-
-    <section>
-      <div id="homeContainer" class="flex-container1">
-        <button id="homeButton" class="myButton" onclick="playSound()" >HOME</button>
-      </div>
-    </section>
-
-
-    <!-- Heading Tag -->
-
+    <!-- Javascript -->
+    <script src="js/main.js"></script>
     <!-- Copyright -->
     <footer>
         <div class="footer">
             <p class="copyright">© 2022 John Cañero</p>   
         </div>
     </footer>
-    </footer>
-
-    <!-- Javascript -->
-    <script src="js/game.js"></script>
   </body>
 </html>

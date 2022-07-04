@@ -17,7 +17,6 @@ function playSound() {
     const buttonPress = document.querySelector("#startbuttonsound");
     buttonPress.play();
 }
-
 mainButton = document.querySelector("#startbutton").addEventListener("click", playSound);
 
 
