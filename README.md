@@ -1,11 +1,34 @@
-This is a Rock, Paper, Scissors Game Project guided by The Odin Project. ✊✋✌
+<!-- markdownlint-configure-file {
+  "MD013": {
+    "code_blocks": false,
+    "tables": false
+  },
+  "MD033": false,
+  "MD041": false
+} -->
 
-Feel free to play the game and challenge and conquer your opponent, the Computer. 
+<div align="center">
+  <a href="https://stalwart-blancmange-7ba347.netlify.app/" target="_blank">
+    <img alt="simon-logo" height="100" src="/images/rockPapaperScissors-Logo.png"/>
+  </a>
+</div>
 
-Project by John Cañero. 
+<div align="center">
 
-<img src= "images/desktopViewRockPaperScissors.png" alt="desktopView - Homepage.png">
+# Rock, Paper, Scissors Game Challenge
 
-<img src= "images/desktopViewRockPaperScissors2.png" alt="desktopView - GameProject.png">
+</div>
 
-<img src= "images/desktopViewRockPaperScissors3.png" alt="desktopView - Results.png">
+## Website
+
+🖥️ [https://johncanero.github.io/ColorSequenceGame/]
+
+✍️ Project by John Cañero
+
+## Responsive Design
+
+🪟: [Desktop - Tablet - Mobile]
+
+![Desktop View - Simon Game](/images/desktopView.jpg)
+![Tablet View - Simon Game](/images/tabletView.jpg)
+![Mobile View - Simon Game](/images/mobileResponsive.jpg)
