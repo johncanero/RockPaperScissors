@@ -32,8 +32,8 @@ Odin Project.
 
 🪟: [Desktop - Tablet - Mobile]
 
+![Desktop View - Rock Paper Scissors Game](/images/responsive/desktopView.jpg)
 ![Desktop View - Rock Paper Scissors Game](/images/responsive/desktopView1.jpg)
-![Desktop View - Rock Paper Scissors Game](/images/responsive/desktopView2.jpg)
 ![Tablet View - Rock Paper Scissors Game](/images/responsive/tabletView.jpg)
 ![Mobile View - Rock Paper Scissors Game](/images/responsive/mobileView.jpg)
 ![Code View - Rock Paper Scissors Game](/images/responsive/codeView.jpg)
