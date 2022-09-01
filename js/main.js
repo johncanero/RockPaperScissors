@@ -9,14 +9,14 @@ function typeWriter() {
         i++;
         setTimeout(typeWriter, speed);
     }
-}
+};
 
 
 // Function to play main button audio on click
 function playSound() {
     const buttonPress = document.querySelector("#startbuttonsound");
     buttonPress.play();
-}
+};
 
 // Sound Start Game Button
 mainButton = document.querySelector("#startbutton").addEventListener("click", playSound);

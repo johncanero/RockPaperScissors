@@ -321,11 +321,6 @@ a:active { text-decoration: none; }
   margin: 0.4em;
 }
 
-/* Game Button */
-.gameselections {
-  display: flex;
-  justify-content: center;
-}
 
 .gameselection {
   display: flex;
