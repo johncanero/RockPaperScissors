@@ -17,11 +17,14 @@
 
 # Rock, Paper, Scissors Game Challenge
 
+This is the Rock, Paper, Scissors Game. A Challenge from the
+Odin Project.
+
 </div>
 
 ## Website
 
-🖥️ [https://johncanero.github.io/ColorSequenceGame/]
+🖥️ [https://stalwart-blancmange-7ba347.netlify.app/]
 
 ✍️ Project by John Cañero
 
@@ -29,6 +32,8 @@
 
 🪟: [Desktop - Tablet - Mobile]
 
-![Desktop View - Simon Game](/images/desktopView.jpg)
-![Tablet View - Simon Game](/images/tabletView.jpg)
-![Mobile View - Simon Game](/images/mobileResponsive.jpg)
+![Desktop View - Rock Paper Scissors Game](/images/responsive/desktopView1.jpg)
+![Desktop View - Rock Paper Scissors Game](/images/responsive/desktopView2.jpg)
+![Tablet View - Rock Paper Scissors Game](/images/responsive/tabletView)
+![Mobile View - Rock Paper Scissors Game](/images/responsive/mobileView)
+![Code View - Rock Paper Scissors Game](/images/responsive/codeView)
